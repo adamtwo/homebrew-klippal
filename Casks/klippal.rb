@@ -1,9 +1,9 @@
 cask "klippal" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.1.1"
-  sha256 arm:   "e0a5fba6d74a8ac4eac710af1efab3bec45d58a6bc8d89d3fce77bc4d1be5d19",
-         intel: "7ff4e25d5c27141eec3a8759a16ff4c125ed318684d44893e02a6705027b2e31"
+  version "1.2.0"
+  sha256 arm:   "90e07eab5d3e46177887d1833743c5ab65270df136f0f6ad55f7fd851e00fb80",
+         intel: "c86b801052e4321704c5b3edc8a27343dc4cc26363d59e494af931ba742516e3"
 
   url "https://github.com/adamtwo/klippal/releases/download/v#{version}/KlipPal-#{version}-#{arch}.dmg",
       verified: "github.com/adamtwo/klippal/"
